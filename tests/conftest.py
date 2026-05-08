@@ -135,6 +135,13 @@ def pptx_advanced_tools():
 
 
 @pytest.fixture
+def pptx_slide_transfer_tools():
+    """Create an instance of PresentationSlideTransferTools."""
+    from tools.pptx_slide_transfer_tools import PresentationSlideTransferTools
+    return PresentationSlideTransferTools()
+
+
+@pytest.fixture
 def web_tools():
     """Create an instance of WebTools."""
     from tools.web_tools import WebTools

@@ -21,6 +21,7 @@ DEFAULT_TOOL_MODULES = [
     "excel_tools",
     "office_unified_tools",
     "pptx_advanced_tools",
+    "pptx_slide_transfer_tools",
     "pptx_tools",
     "web_tools",
     "word_advanced_tools",
