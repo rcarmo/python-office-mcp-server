@@ -96,7 +96,7 @@ jobs:
           name: office-mcp-server-installer
           path: dist/office-mcp-server-setup.exe
           if-no-files-found: error
-          retention-days: 14
+          retention-days: 7
 
       - name: Upload portable bundle
         uses: actions/upload-artifact@v7
@@ -104,4 +104,4 @@ jobs:
           name: office-mcp-server-portable
           path: dist/office-mcp-server/
           if-no-files-found: error
-          retention-days: 14
+          retention-days: 7
